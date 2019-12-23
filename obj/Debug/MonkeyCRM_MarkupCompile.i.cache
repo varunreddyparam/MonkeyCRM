@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\obj\Debug\
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\
 MonkeyCRM
 none
 false
 DEBUG;TRACE
-C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\App.xaml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\App.xaml
 4-1623715288
 
 17457633174
-151377370388
+159855051
 EditMenuUserControl.xaml;MainWindow.xaml;UserControlMenuItem.xaml;View\DashBoard.xaml;
 
-False
+True
 

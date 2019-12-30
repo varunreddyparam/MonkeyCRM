@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:MonkeyCRM"
         xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
         mc:Ignorable="d" Height="600" Width="1024" ShowInTaskbar="False" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" WindowStyle="None" WindowState="Maximized">
-    <Window.Resources>
+    <!--<Window.Resources>
         <Storyboard x:Key="MenuOpen">
             <DoubleAnimationUsingKeyFrames Storyboard.TargetProperty="(FrameworkElement.Width)" Storyboard.TargetName="GridMenu">
                 <EasingDoubleKeyFrame KeyTime="0" Value="70"/>
@@ -27,17 +27,17 @@
         <EventTrigger RoutedEvent="ButtonBase.Click" SourceName="ButtonCloseMenu">
             <BeginStoryboard Storyboard="{StaticResource MenuClose}"/>
         </EventTrigger>
-    </Window.Triggers>
+    </Window.Triggers>-->
     <Grid Background="#FFFAFAFA">
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="220" x:Name="ColumnDefinationSideMenu"></ColumnDefinition>
             <ColumnDefinition Width="*" x:Name="ColumnPageContainer"></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <Grid.RowDefinitions>
-            <RowDefinition Height="60"></RowDefinition>
+            <RowDefinition Height="80"></RowDefinition>
             <RowDefinition Height="*"></RowDefinition>
         </Grid.RowDefinitions>
-        <Grid Height="60" VerticalAlignment="Top" x:Name="GridTopMenu" MouseDown="GridTopMenu_MouseDown" Background="#FF3C8DBC" Grid.ColumnSpan="2">
+        <Grid Height="80" VerticalAlignment="Top" x:Name="GridTopMenu" MouseDown="GridTopMenu_MouseDown" Background="#FF1E282C" Grid.ColumnSpan="2">
             <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="10,0" Width="250">
                 <Button Width="50" Height="50" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}"  Foreground="White" Margin="10,0">
                     <materialDesign:PackIcon Kind="Magnify" Height="30" Width="30"/>
@@ -73,15 +73,16 @@
                 <StackPanel x:Name="UserControlToolBar"/>
             </ScrollViewer>
         </Grid>-->
-        <Grid  x:Name="GridMenu"  Background="#FF1E282C"  Width="70" HorizontalAlignment="Left" MouseDown="GridTopMenu_MouseDown" Grid.RowSpan="3">
+        <Grid  x:Name="GridMenu"  Background="#FF1E282C"  Width="220" HorizontalAlignment="Left" MouseDown="GridTopMenu_MouseDown" Grid.RowSpan="3">
             <StackPanel>
-                <Grid VerticalAlignment="Top" Height="60" Background="#FF357CA5">
-                    <Button x:Name="ButtonCloseMenu" Width="30" Height="30" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Center" Visibility="Collapsed" Click="ButtonCloseMenu_Click" Margin="20,0">
+                <Grid VerticalAlignment="Top" Height="80" Background="#FF1E282C">
+                    <Image Source="C:\Users\lenovo\Documents\GitHub\MonkeyCRM\Images\MonkeyCRMStyle6.png" HorizontalAlignment="Left"/>
+                    <!--<Button x:Name="ButtonCloseMenu" Width="30" Height="30" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" VerticalAlignment="Center" Visibility="Collapsed" Click="ButtonCloseMenu_Click" Margin="20,0">
                         <materialDesign:PackIcon Kind="ArrowLeft" Height="30" Width="30" Foreground="White"/>
-                    </Button>
+                    </Button>b
                     <Button x:Name="ButtonOpenMenu"  Width="30" Height="30" Style="{StaticResource MaterialDesignFloatingActionMiniAccentButton}" Background="{x:Null}" BorderBrush="{x:Null}" HorizontalAlignment="Right" Margin="20,0" VerticalAlignment="Center" Click="ButtonOpenMenu_Click" >
                         <materialDesign:PackIcon Kind="Menu" Height="30" Width="30" Foreground="White"/>
-                    </Button>
+                    </Button>-->
                 </Grid>
                 <ListView Background="#FF1E282C" ScrollViewer.HorizontalScrollBarVisibility="Disabled">
                     <ListViewItem Height="40">

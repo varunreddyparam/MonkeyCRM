@@ -89,6 +89,9 @@
     <Compile Include="ViewModel\MainMenu\SubItem.cs" />
     <Compile Include="ViewModel\SubMenu\SubMenu.cs" />
     <Compile Include="ViewModel\SubMenu\SubMenuButton.cs" />
+    <Compile Include="View\ContactDetailView.xaml.cs">
+      <DependentUpon>ContactDetailView.xaml</DependentUpon>
+    </Compile>
     <Compile Include="View\DashBoard.xaml.cs">
       <DependentUpon>DashBoard.xaml</DependentUpon>
     </Compile>
@@ -109,6 +112,10 @@
       <SubType>Code</SubType>
     </Compile>
     <Page Include="UserControlMenuItem.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="View\ContactDetailView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -155,6 +162,14 @@
       <ProductName>.NET Framework 3.5 SP1</ProductName>
       <Install>false</Install>
     </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\MonkeyCRMStyle4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\Monkey CRM Style 1.png" />
+    <Resource Include="Images\Monkey CRM Style 2.png" />
+    <Resource Include="Images\MonkeyCRMStyle3.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

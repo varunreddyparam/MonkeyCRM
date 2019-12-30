@@ -31,8 +31,8 @@ namespace MonkeyCRM
             InitializeComponent();
             //ConstructMenu();
             //ConstructSubMenuBarItem();
-            ButtonCloseMenu.Visibility = Visibility.Visible;
-            ButtonOpenMenu.Visibility = Visibility.Collapsed;
+            //ButtonCloseMenu.Visibility = Visibility.Visible;
+            //ButtonOpenMenu.Visibility = Visibility.Collapsed;
             GridMenu.Width = 220;
             Loaded += MainWindow_Loaded;
         }
@@ -52,18 +52,18 @@ namespace MonkeyCRM
             DragMove();
         }
 
-        private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonOpenMenu.Visibility = Visibility.Visible;
-            ButtonCloseMenu.Visibility = Visibility.Collapsed;
-            ColumnPageContainer.Width = new GridLength(1, GridUnitType.Star);
-        }
+        //private void ButtonCloseMenu_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ButtonOpenMenu.Visibility = Visibility.Visible;
+        //    ButtonCloseMenu.Visibility = Visibility.Collapsed;
+        //    ColumnPageContainer.Width = new GridLength(1, GridUnitType.Star);
+        //}
 
-        private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
-        {
-            ButtonCloseMenu.Visibility = Visibility.Visible;
-            ButtonOpenMenu.Visibility = Visibility.Collapsed;
-        }
+        //private void ButtonOpenMenu_Click(object sender, RoutedEventArgs e)
+        //{
+        //    ButtonCloseMenu.Visibility = Visibility.Visible;
+        //    ButtonOpenMenu.Visibility = Visibility.Collapsed;
+        //}
 
         private RootMenu Deserializexml()
         {

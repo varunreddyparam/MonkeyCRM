@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\App.xaml
-4-1623715288
+5-2364599
 
-17457633174
+181148744282
 159855051
-EditMenuUserControl.xaml;MainWindow.xaml;UserControlMenuItem.xaml;View\DashBoard.xaml;
+EditMenuUserControl.xaml;MainWindow.xaml;UserControlMenuItem.xaml;View\ContactDetailView.xaml;View\DashBoard.xaml;
 
-True
+False
 

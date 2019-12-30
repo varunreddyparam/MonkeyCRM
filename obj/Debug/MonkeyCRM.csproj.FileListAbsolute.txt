@@ -13,8 +13,6 @@ C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\MonkeyCRM.exe
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\MonkeyCRM.pdb
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\MonkeyCRM.csprojAssemblyReference.cache
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\MonkeyCRM.csproj.CoreCompileInputs.cache
-C:\Users\lenovo\Documents\GitHub\MonkeyCRM\bin\Debug\MaterialDesignColors.dll
-C:\Users\lenovo\Documents\GitHub\MonkeyCRM\bin\Debug\MaterialDesignThemes.Wpf.dll
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\bin\Debug\MaterialDesignThemes.Wpf.pdb
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\bin\Debug\MaterialDesignThemes.Wpf.xml
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\MonkeyCRM.csproj.CopyComplete
@@ -47,3 +45,10 @@ C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\obj\Debug\EditMenuUserContro
 C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\obj\Debug\EditMenuUserControl.baml
 C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\obj\Debug\View\DashBoard.g.cs
 C:\Users\lenovo\Documents\GitHub\GmailCRM\MonkeyCRM\obj\Debug\View\DashBoard.baml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\bin\Debug\MaterialDesignColors.pdb
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\EditMenuUserControl.g.cs
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\UserControlMenuItem.g.cs
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\DashBoard.g.cs
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\EditMenuUserControl.baml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\UserControlMenuItem.baml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\DashBoard.baml

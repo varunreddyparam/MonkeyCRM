@@ -78,6 +78,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ContactCard.xaml.cs">
+      <DependentUpon>ContactCard.xaml</DependentUpon>
+    </Compile>
     <Compile Include="EditMenuUserControl.xaml.cs">
       <DependentUpon>EditMenuUserControl.xaml</DependentUpon>
     </Compile>
@@ -95,6 +98,10 @@
     <Compile Include="View\DashBoard.xaml.cs">
       <DependentUpon>DashBoard.xaml</DependentUpon>
     </Compile>
+    <Page Include="ContactCard.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="EditMenuUserControl.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

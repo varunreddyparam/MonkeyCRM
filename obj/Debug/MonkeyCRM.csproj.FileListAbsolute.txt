@@ -52,3 +52,7 @@ C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\DashBoard.g.cs
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\EditMenuUserControl.baml
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\UserControlMenuItem.baml
 C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\DashBoard.baml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\ContactCard.g.cs
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\ContactDetailView.g.cs
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\ContactCard.baml
+C:\Users\lenovo\Documents\GitHub\MonkeyCRM\obj\Debug\View\ContactDetailView.baml
